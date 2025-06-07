@@ -71,7 +71,13 @@ def criar_frame_boxe():
                        command=voltar)
     Voltar_BT.place(x=0, y=750)
 
-    Jab_BT = Button(Boxe_Frame, text="Jab", anchor="w", width=30, height=)
+    Jab_BT = Button(Boxe_Frame, text="Jab", anchor="w", width=30, height=2, font="Time 15 bold", fg=Vermelho_escuro,
+                    bg=Roxo_escuro)
+    Jab_BT.pack(fill= tkinter.X, pady=3, padx=1)
+
+    Hook_BT = Button(Boxe_Frame, text="Hook", anchor="w", width=30, height=2, font="Time 15 bold", fg=Vermelho_escuro,
+                     bg=Roxo_escuro)
+    Hook_BT.pack(fill=tkinter.X, pady=3, padx=1)
 
 
 
